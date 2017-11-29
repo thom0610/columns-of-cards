@@ -43,7 +43,6 @@ cite {
 
 .btn {
   border-left: 1px solid #333;
-  border-right: 1px solid #333;
 }
 
 .btn-small {
@@ -77,4 +76,5 @@ p {
 
 .card4 {
   background-color: #999;
+  border-right: 1px solid #333;
 }
