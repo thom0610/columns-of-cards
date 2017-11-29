@@ -5,3 +5,40 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+section {
+  display: inline-flex;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Open Sans;
+  padding: 1.5rem;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+section {
+  display: inline-flex;
+}
+
+img {
+  width: 100%;
+
+}
+
+div {
+  padding: .75rem;
+}
+
+cite {
+  font-size: .875rem;
+}
