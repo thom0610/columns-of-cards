@@ -6,16 +6,12 @@ html {
   box-sizing: inherit;
 }
 
-section {
-  display: flex;
-  float: left;
-}
-
 body {
   background-color: #f2f2f2;
   font-family: "Open Sans";
   padding: 1.5rem;
   margin: 0;
+  float: left;
 }
 
 h2 {
@@ -35,6 +31,8 @@ img {
 
 div {
   padding: .75rem;
+  float: left;
+  max-width: 25%;
 }
 
 cite {
@@ -59,6 +57,10 @@ p {
 }
 
 .btn:hover {
+  background-color: #ccc;
+}
+
+.btn.btn-small:hover {
   background-color: #f33;
 }
 
