@@ -20,6 +20,11 @@ h2 {
 
 h3 {
   margin: 0;
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 0;
 }
 
 img {
@@ -29,10 +34,16 @@ img {
   max-width: 100px;
 }
 
+section {
+  padding: .75rem;
+  overflow: hidden;
+}
+
 div {
   padding: .75rem;
   float: left;
   max-width: 25%;
+  min-height: 25rem;
 }
 
 cite {
@@ -49,12 +60,7 @@ cite {
   background-color: #333;
   padding: .5rem;
   border-radius: 10px;
-  margin: 0 0 1.5rem;
   display: inline-block;
-}
-
-p {
-  margin: 0 auto 1.5rem;
 }
 
 .btn:hover {
