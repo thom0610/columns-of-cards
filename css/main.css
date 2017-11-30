@@ -27,6 +27,7 @@ img {
   width: 100%;
   display: block;
   max-width: 25%;
+  margin: 0 auto 1.5rem;
 }
 
 div {
