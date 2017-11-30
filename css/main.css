@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #f2f2f2;
-  font-family: "Open Sans";\
+  font-family: "Open Sans";
   line-height: 1.5;
 }
 
@@ -24,8 +24,9 @@ h3 {
 
 img {
   display: block;
-  width: 100px;
   margin: 0 auto 1.5rem;
+  width: 100%;
+  max-width: 100px;
 }
 
 div {
@@ -49,6 +50,7 @@ cite {
   padding: .5rem;
   border-radius: 10px;
   margin: 0 0 1.5rem;
+  display: inline-block;
 }
 
 p {
