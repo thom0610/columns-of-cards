@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  background-color: #f2f2f2;
+  font-family: "Open Sans";\
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -7,11 +10,7 @@ html {
 }
 
 body {
-  background-color: #f2f2f2;
-  font-family: "Open Sans";
   margin: 0;
-  float: left;
-  line-height: 1.5;
 }
 
 h2 {
@@ -24,9 +23,8 @@ h3 {
 }
 
 img {
-  width: 100%;
   display: block;
-  max-width: 25%;
+  width: 100px;
   margin: 0 auto 1.5rem;
 }
 
